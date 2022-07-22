@@ -1,0 +1,4 @@
+Homepage test for en language
+        selenium chrome https://www.quandoo.de/en 1366x768
+            run scripts/accept_cookies.js
+            check specs/homepage.gspec

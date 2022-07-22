@@ -1,0 +1,16 @@
+# This covers Quandoo Listing Page Visual Testing
+========================================
+@objects
+    logo    xpath   //div[@class='hyss0n-7 MLqnm']
+
+========================================
+# Validation on desktop resolutions
+@on desktop
+========================================
+
+= Footer section =
+    logo:
+      height ~ 37px
+      width ~ 165px
+
+
