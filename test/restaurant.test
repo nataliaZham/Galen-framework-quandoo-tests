@@ -1,0 +1,13 @@
+@@ table languages
+        | locale |
+        | en     |
+        | de     |
+        | fr     |
+        | it     |
+
+@@ parameterized using languages
+Listing page test for ${locale} language
+     selenium chrome https://www.quandoo.de/${locale}/place/vineria-del-este-148 1366x768
+        properties i18n/listing-page-${locale}.properties
+        run scripts/accept_cookies.js
+        check specs/localisation.gspec
